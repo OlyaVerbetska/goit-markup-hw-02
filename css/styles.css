@@ -6,6 +6,7 @@
   --text-color: #757575;
   --contrast-white-color: #ffffff;
   --contrast-text-color: rgba(255, 255, 255, 0.6);
+  --button-bg: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -105,4 +106,71 @@ a {
   line-height: 1.17;
 
   color: var(--title-text-color);
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: var(--title-text-color);
+}
+
+.team p {
+  line-height: 1.71;
+
+  color: var(--text-color);
+}
+footer {
+  /* фон для видимости  текста заголовка */
+  background-color: #2f303a;
+}
+.post {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--contrast-white-color);
+}
+footer .link {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--contrast-text-color);
+}
+
+.logo.secondary {
+  color: var(--contrast-white-color);
+}
+
+.portfolio-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--title-text-color);
+
+  background-color: var(--button-bg);
+}
+
+.portfolio-filter:hover,
+.portfolio-filter:focus,
+.portfolio-filter:active {
+  color: var(--contrast-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-filter:hover {
+  cursor: pointer;
+}
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--text-color);
 }
