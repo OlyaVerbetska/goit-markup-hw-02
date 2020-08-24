@@ -95,8 +95,7 @@ a {
 }
 
 .features p,
-.team p
-{
+.team p {
   line-height: 1.71;
 
   color: var(--text-color);
